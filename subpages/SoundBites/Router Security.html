@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--Made by Nathan Pan-->
+<html lang="en">
+  <title>Router Security</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="shortut icon" type="image/png" href="../../img/misi-logo-desc-ko.png">
+
+  <style>
+  body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+  .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+  .fa-anchor,.fa-coffee {font-size:200px}
+  /*rgb(75, 78, 93)*/
+  </style>
+  <body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark" style="text-align: center">
+        <a class="navbar-brand" href="../SoundBites/mainSoundBites.html">Back</a>
+    </nav>
+    <!-- Header -->
+    <header class="w3-container w3-center w3-light-grey" style="padding:128px 16px">
+      <h1 class="w3-margin w3-jumbo" style="color: black">Router Security</h1>
+    </header>
+
+    <!-- First Grid -->
+    <div class="w3-row-padding w3-padding-32 w3-container" style="margin: 0 auto; display: table;">
+        <div class="w3-content">
+          <div style="padding-right: 24px">
+          <audio controls style="margin: 0 auto; display: table;"> 
+            <source src="Audio Files/router-security-intern2 (online-audio-converter.com).mp3" type="audio/mp3">
+              Your browser does not support the audio file.
+          </audio>
+            <h5 class="w3-padding-48" style="line-height: 35px">The internet has become an essential part of every aspect of modern life. In order to connect to the internet, many people go the wireless route,
+               which requires a router. Some people use the internet to handle important information, such as their banking information, so protecting their router is incredibly 
+               important. There are several important strategies to securing your router. The first is changing the default SSID, or router name, to exclude the router brand, although 
+               the default SSID often includes it. This is important because knowing the router brand allows someone with malicious intentions to find vulnerabilities in the system. 
+               Another important tip is enabling firewall capabilities if the router has them because it adds another layer of security to the network. .Regarding the password to access 
+               the network, there are three different secure options. The least secure option is having no password, which is never recommended. A step above that is WEP, which is 
+               better than having no password, but still not incredibly secure. WPA is slightly more secure than WEP. The most secure option is an upgraded version of WPA, called WPA2. 
+               Another suggestion is a MAC address filter. This would not allow devices to wirelessly connect to the network without their MAC address, which is unique to the device, 
+               being on a pre-determined list. This means that it is harder to connect new devices to the network, but the network is more secure.These are only a few of the many 
+               methods to secure a network, but it is highly recommended that you consider at least using a few, if not all, of these methods.</h5>
+          </div>
+          <audio controls style="margin: 0 auto; display: table;"> 
+              <source src="../SoundBites/Audio Files/router-security-intern1.mp3" type="audio/mp3">
+                Your browser does not support the audio file.
+            </audio>
+              <h5 class="w3-padding-48" style="line-height: 35px">Wi-Fi routers are a necessity in this day and age but can also become attack points for hackers and identity thieves. Leaving your router unsecured at the very base level means not changing the default password and using a public IP address.
+
+                  First off, every router should have a complex password. This is a very simple thing to do and can be done by accessing the router’s settings site which can be found on the side of the router. In the security settings page, you should change the name of the router, add a complex password that only you and your family know; and choose a type of encryption such as WPA2.
+                  
+                  The most common kinds of encryption are WEP, WPA, and WPA2. WEP stands for Wired Equivalent Privacy and is the oldest type of encryption available. However, it is also the most commonly used. It is considered the least secure type of encryption since it uses radio waves that are very easy to crack. This is because it uses the same encryption for every data packet that is sent. This means by using a very simple script, the data packets can be retrieved.
+                  
+                  The next kind of encryption is Wi-Fi Protected Access which is also known as WPA. In this the encryption key is scrambled so it is harder to crack than WEP. However, it still uses legacy firmware that still relies on WEP.
+                  
+                  WPA2 is the newest encryption and should be the encryption that you use for your router in the case that you want to secure it. It is more secure than WPA because it relies on AES rather than TKIP (Temporal Key Integrity Protocol). AES (Advanced Encryption Standard) should be used on top of WPA2 whenever possible. It is said to be the same encryption that is used by the government and although is possible to crack, it is very hard.
+                  
+                  Some other things that you can do to keep your router safe are disabling Wi-Fi Protected Setup, updating firmware, creating a guest network for all smart-home devices, and using a VPN on your devices.</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="jumbotron text-center" style="margin-bottom:0 ; background-color: #A71D3C">
+      <h3><a href="https://dreamport.tech/" target="_blank" style="color: #495058">Dream<b>Port</b></a> Interns</h3>
+    </div>
+    <script>
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else { 
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+    </script>
+
+  </body>
+</html>

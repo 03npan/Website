@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--Made by Nathan Pan-->
+<html lang="en">
+  <title>Encryption</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="shortut icon" type="image/png" href="../../img/misi-logo-desc-ko.png">
+
+  <style>
+  body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+  .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+  .fa-anchor,.fa-coffee {font-size:200px}
+  /*rgb(75, 78, 93)*/
+  </style>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark" style="text-align: center">
+        <a class="navbar-brand" href="../SoundBites/mainSoundBites.html">Back</a>
+    </nav>
+    <!-- Header -->
+    <header class="w3-container w3-center w3-light-grey" style="padding:128px 16px">
+      <h1 class="w3-margin w3-jumbo" style="color: black">Encryption</h1>
+    </header>
+
+    <!-- First Grid -->
+    <div class="w3-row-padding w3-padding-32 w3-container" style="margin: 0 auto; display: table;">
+        <div class="w3-content">
+          <div style="padding-right: 24px">
+          <audio controls style="margin: 0 auto; display: table;"> 
+            <source src="../SoundBites/Audio Files/encryption-intern2.mp3" type="audio/mp3">
+              Your browser does not support the audio file.
+          </audio>
+            <h5 class="w3-padding-48" style="line-height: 35px">As technology continues to advance, more and more tasks are being completed on the Internet. While this makes it much easier and faster to 
+              communicate information, new risks also appear. The Internet is very open, and messages could be intercepted by anyone, including malicious hackers trying to steal 
+              information. Encryption is the process of making a message unreadable unless you have the key to decrypt the message. It allows for business transactions and the 
+              transfer of personal or private information to occur over the Internet without having to worry about malicious actors listening in on or stealing data during 
+              communication. There are two main types of encryption: symmetric encryption and asymmetric encryption. Both types of encryption take a message, called the plaintext, 
+              and transform it into garbled characters called the ciphertext. They both use functions that are difficult or impossible for computers to solve backwards to ensure 
+              that the ciphertext cannot be used to solve for the encryption key. Symmetric encryption uses one private key that both parties have already decided upon to encode and 
+              decode messages. It is much faster than asymmetric encryption, but the key is less secure, especially if it was decided upon over an insecure channel, such as the 
+              Internet. Asymmetric encryption uses a public key that anyone can use to encode a message as well as a private key that only the recipient of the message owns to decode 
+              messages. Although asymmetric encryption is more secure, it is also much slower.</h5>
+          </div>
+          <div style="padding-right: 24px">
+              <audio controls style="margin: 0 auto; display: table;"> 
+                <source src="../SoundBites/Audio Files/encryption-intern1.mp3" type="">
+                  Your browser does not support the audio file.
+              </audio>
+                <h5 class="w3-padding-48" style="line-height: 35px">In the growing age of digital communication, protecting confidential data becomes ever more important. There are many ways that attackers may be able to gain access to the data that you transfer, both over the Internet as well as through wired connections. There are a few solutions to this problem, and a common method used today is encryption.
+
+                    Encryption is the process where you encode information so that only people that are authorized can decode it. This way, even if an attacker is able to leak your communications, they are unable to read the content within the message.
+                    
+                    A cipher is a secret or disguised method of writing. In encryption, the plaintext is the message before encryption, and the ciphertext is the message after the encryption algorithm is run on it.
+                    
+                    Encryption uses one-way functions, which are those that are simple to compute for a given input, but challenging to invert given an output of the program.
+                    
+                    There are two main types of encryption, symmetric-key and public-key encryption. In symmetric-key encryption, both parties know the secret key, which creates more vectors in which the key can be leaked. In public-key encryption, everyone knows the public key. The message to be sent is encrypted with the recipient’s public key, and only the corresponding private key can decode the message. This ensures more confidentiality with message transfers.</h5>
+              </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="jumbotron text-center" style="margin-bottom:0 ; background-color: #A71D3C">
+      <h3><a href="https://dreamport.tech/" target="_blank" style="color: #495058">Dream<b>Port</b></a> Interns</h3>
+    </div>
+    <script>
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else { 
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+    </script>
+
+  </body>
+</html>

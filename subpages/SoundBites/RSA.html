@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--Made by Nathan Pan-->
+<html lang="en">
+  <title>RSA</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="shortut icon" type="image/png" href="../../img/misi-logo-desc-ko.png">
+
+  <style>
+  body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+  .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+  .fa-anchor,.fa-coffee {font-size:200px}
+  /*rgb(75, 78, 93)*/
+  </style>
+  <body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark" style="text-align: center">
+        <a class="navbar-brand" href="../SoundBites/mainSoundBites.html">Back</a>
+    </nav>
+    <!-- Header -->
+    <header class="w3-container w3-center w3-light-grey" style="padding:128px 16px">
+      <h1 class="w3-margin w3-jumbo" style="color: black">RSA</h1>
+    </header>
+
+    <!-- First Grid -->
+    <div class="w3-row-padding w3-padding-32 w3-container" style="margin: 0 auto; display: table;">
+        <div class="w3-content">
+          <div style="padding-right: 24px">
+          <audio controls style="margin: 0 auto; display: table;"> 
+            <source src="Audio Files/RSA.mp3" type="audio/mp3">
+              Your browser does not support the audio file.
+          </audio>
+            <h5 class="w3-padding-48" style="line-height: 35px">RSA, named after the designers Ron Rivest, Adi Shamir, and Leonard Adleman, is a public-key cryptosystem that is very widely used. A 
+              public-key cryptosystem is a system where there is a public encryption key that is available to everyone, and there is a secret private decryption key. RSA is 
+              based on the difficulty that comes from factoring the product of two prime numbers.The RSA algorithm consists of four steps: key generation, key distribution, 
+              encryption, and decryption. The first step, key generation, consists of choosing two, large prime numbers and computing the values to be used to find the public 
+              and private keys. The second step, key distribution, consists of distributing the public and private keys. The public keys are the product of the two large prime 
+              numbers and a coprime integer value that is between 1 and the value of Carmichael’s totient function for the first public key. The private key is the modular 
+              multiplicative inverse of the coprime integer modulo the value of Carmichael’s totient function for the product of the two prime numbers. In simpler terms, you will 
+              only share two values that were found in key generation, and you will keep one value secret. The third step, encryption, involves converting a message to an integer 
+              according to the padding scheme, an agreed-upon reversible protocol. With this integer, the plaintext, one uses the public keys as parameters for modular exponentiation 
+              to generate the ciphertext. The fourth step, decryption, involves using the ciphertext as well as the public and private keys to reverse the encryption process based on 
+              modular congruency. Once the necessary calculations are done, the ciphertext will be converted to plaintext, and the padding scheme can be reversed to get the original 
+              message. RSA is important today because it allows people to securely send messages in a way that is not easily reversed. By depending on the difficulty of factoring the 
+              product of two prime numbers as well as the irreversibility of modular exponentiation, one can send critical information with little fear of it being decrypted by 
+              unknown malicious parties. RSA encryption and decryption are often too slow to convey large amounts of user data but are instead used to hide codes that can be used 
+              for symmetric key encryption.</h5>
+          </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="jumbotron text-center" style="margin-bottom:0 ; background-color: #A71D3C">
+      <h3><a href="https://dreamport.tech/" target="_blank" style="color: #495058">Dream<b>Port</b></a> Interns</h3>
+    </div>
+    <script>
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else { 
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+    </script>
+
+  </body>
+</html>
